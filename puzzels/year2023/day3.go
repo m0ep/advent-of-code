@@ -14,7 +14,7 @@ type SymbolPos struct {
 }
 
 func RunDay3() {
-	fmt.Println("Day 2")
+	fmt.Println("Day 3")
 	file, err := os.Open("inputs/2023_03.txt")
 	if nil != err {
 		panic("Failed to ope file")
