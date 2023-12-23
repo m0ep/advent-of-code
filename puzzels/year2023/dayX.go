@@ -10,7 +10,7 @@ func RunDayX() {
 	fmt.Println("Day X")
 	file, err := os.Open("inputs/2023_04.txt")
 	if nil != err {
-		panic("Failed to ope file")
+		panic("Failed to open file")
 	}
 
 	scanner := bufio.NewScanner(file)
